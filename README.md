@@ -49,9 +49,6 @@ Project Organization
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │       └── visualize.py
     │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.ioo
 
 
---------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
