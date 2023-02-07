@@ -2,6 +2,13 @@ Retina Segmentation
 ==============================
 
 Retinal Vessel Segmentation on a collection of retinal vessel images from various Datasets: CHASE_DB1,DRIVE,HRF and STARE.
+# instructions to make the project work:
+For this project to work: 
+-you need to start by cloning this github repo into your local machine.
+-you need to pip install the requirements in requirements.txt
+-you need to download the dataset: https://www.kaggle.com/datasets/ipythonx/retinal-vessel-segmentation into the folder data/raw
+-Finally, use the notebook "Data exploration and first model" to train the Unet Architecture on the data and run the .save cell. This will save the model in /model.
+
 
 Project Organization
 ------------
@@ -50,5 +57,4 @@ Project Organization
     │       └── visualize.py
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.ioo
-
 
